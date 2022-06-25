@@ -1,8 +1,7 @@
 import { FooterContainer, FooterButtonsContainer } from './styles'
 import { Contact } from '../Contact'
-import { ButtonIcons, ButtonLinkedIn } from '../MainView/styles'
+import { ButtonIcons } from '../MainView/styles'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { BsMedium } from 'react-icons/bs'
 
 export const Footer = () => {
   return (
