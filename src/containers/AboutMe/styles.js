@@ -5,6 +5,7 @@ export const StyledAboutMe = styled.div`
   display: flex;
   color: white;
   cursor: default;
+  margin: 50px 0;
 
   h1 {
     font-size: 2.5rem;

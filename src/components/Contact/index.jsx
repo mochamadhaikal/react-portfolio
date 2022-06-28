@@ -18,7 +18,7 @@ export const Contact = () => {
           <p>mhaikal1006@gmail.com</p>
 
           <span>Phone</span>
-          <p>+62 83114462202</p>
+          <p>+62 831-1446-2202</p>
         </ContactInfo>
       </AsideContact>
 

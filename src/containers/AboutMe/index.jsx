@@ -1,6 +1,4 @@
-import { StyledAboutMe, ImgContainer, MeInfo, GetCv, MySelf, MeDescription } from './styles'
-import { MdArrowRightAlt } from 'react-icons/md'
-import cv from '../../utils/cv.pdf'
+import { StyledAboutMe, ImgContainer, MeInfo, MySelf, MeDescription } from './styles'
 import MyImage from '../../utils/me.png'
 import { motion } from 'framer-motion'
 
@@ -42,7 +40,7 @@ export const AboutMe = () => {
             </div>
             <div>
               <span>Email:</span>
-              <a href="/">
+              <a href="mailto:mhaikal1006@gmail.com">
                 <p>mhaikal1006@gmail.com</p>
               </a>
             </div>
@@ -51,7 +49,9 @@ export const AboutMe = () => {
           <section>
             <div>
               <span>Phone:</span>
-              <p>+62 831 1446 2202</p>
+              <a href="https://api.whatsapp.com/send?phone=6283114462202">
+                <p>+62 831-1446-2202</p>
+              </a>
             </div>
             <div>
               <span>Instagram:</span>
@@ -61,11 +61,6 @@ export const AboutMe = () => {
             </div>
           </section>
         </MeInfo>
-
-        <GetCv download="Mochamad Haikal_CV.pdf" href={cv} target="_blank">
-          <p>Download CV</p>
-          <MdArrowRightAlt size="32" />
-        </GetCv>
       </MeDescription>
     </StyledAboutMe>
   )
