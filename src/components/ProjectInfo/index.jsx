@@ -7,8 +7,6 @@ export const ProjectInfo = ({ title, description, image, techInfo, preview, id }
 
   const colorToUse = posiblesColors[Math.floor(Math.random() * posiblesColors.length)]
 
-  console.log(techInfo)
-
   return (
     <StyledProjectInfo>
       <Container>
