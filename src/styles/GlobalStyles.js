@@ -40,4 +40,17 @@ export const GlobalStyles = createGlobalStyle`
   &::-webkit-scrollbar-track {
       border-radius: 10px;
   }
+  /* INPUT NUMBER */
+
+  /* Chrome, Safari, Edge, Opera */
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
 `

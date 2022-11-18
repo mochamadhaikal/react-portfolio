@@ -1,47 +1,34 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 export const ContactForm = () => {
-
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    emailjs.sendForm('service_mn3xqcl', 'template_9p03dgj', form.current, 'fwvXxyfAZ0AQmnAlo')
-      .then(() => {
-          alert('Success')
-      }, (error) => {
-          alert('Failed')
-      });
-  };
+    emailjs.sendForm('muhhaykale311096', 'rahma096311', form.current, 'fwvXxyfAZ0AQmnAlo').then(
+      () => {
+        alert('Success')
+      },
+      (error) => {
+        alert('Failed', error)
+      }
+    )
+    form.current.reset()
+  }
 
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-        />
-
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-        />
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
       </div>
-
-      <input
-        type="text"
-        name="phone"
-        placeholder="Phone (without parentheses and spaces)"
-      />
-      <textarea
-        name="message"
-        placeholder='Message'
-      />
-      <button type="submit">Submit</button>
+      <input type="number" name="phone" maxlength="13" placeholder="Phone (without parentheses and spaces)" required />
+      <textarea name="message" placeholder="Message" required />
+      <button type="submit" className="submit">
+        Submit
+      </button>
     </form>
   )
 }
