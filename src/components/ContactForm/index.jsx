@@ -19,7 +19,7 @@ export const ContactForm = () => {
   }
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} autocomplete="off">
       <div>
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
