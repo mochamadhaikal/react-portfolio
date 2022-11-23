@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const StyledAboutMe = styled.div`
   width: 80%;
@@ -32,14 +32,14 @@ export const StyledAboutMe = styled.div`
       font-size: 1.4rem;
     }
   }
-`;
+`
 
 export const MeDescription = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
+`
 
 export const ImgContainer = styled.div`
   width: 90%;
@@ -62,15 +62,6 @@ export const ImgContainer = styled.div`
     border-radius: 24px;
   }
 
-  &:hover {
-    img {
-      top: -10px;
-      right: -10px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
-  }
-
   @media (max-width: 768px) {
     width: 80%;
     margin: 0;
@@ -80,7 +71,7 @@ export const ImgContainer = styled.div`
   @media (max-width: 425px) {
     width: 75%;
   }
-`;
+`
 
 export const MeInfo = styled.div`
   display: flex;
@@ -124,7 +115,7 @@ export const MeInfo = styled.div`
       font-size: 1rem;
     }
   }
-`;
+`
 
 export const GetCv = styled.a`
   padding: 1vh 4.5vh;
@@ -157,7 +148,7 @@ export const GetCv = styled.a`
     padding: 1vh 3vh;
     font-size: 1rem;
   }
-`;
+`
 
 export const MySelf = styled.div`
   width: 100%;
@@ -172,4 +163,4 @@ export const MySelf = styled.div`
       text-shadow: 0 0 0.1rem #03bd9a;
     }
   }
-`;
+`

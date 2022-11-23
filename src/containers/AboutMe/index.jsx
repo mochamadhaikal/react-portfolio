@@ -1,22 +1,11 @@
 import { StyledAboutMe, ImgContainer, MeInfo, MySelf, MeDescription } from './styles'
 import MyImage from '../../utils/me.png'
-import { motion } from 'framer-motion'
 
 export const AboutMe = () => {
   return (
     <StyledAboutMe>
       <ImgContainer>
-        <motion.img
-          src={MyImage}
-          alt="This is me"
-          drag
-          dragConstraints={{
-            top: -50,
-            left: -50,
-            right: 50,
-            bottom: 50,
-          }}
-        />
+        <img src={MyImage} alt="This is me" />
       </ImgContainer>
 
       <MeDescription>
@@ -26,9 +15,9 @@ export const AboutMe = () => {
 
         <MySelf>
           <p>
-          I'm a <strong>software engineer</strong> with 8 months experience. I love technology and computers very much. I am 
-          reliable, can work in a team, and can quickly learn my interest in frontend development. In my free 
-          time, I enjoy music, and gaming.
+            I'm a <strong>Software Engineer</strong> with 8 months experience. I love technology and computers very
+            much. I am reliable, can work in a team, and can quickly learn my interest in frontend development. In my
+            free time, I enjoy music, and gaming.
           </p>
         </MySelf>
 
