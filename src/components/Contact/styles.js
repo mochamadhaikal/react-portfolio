@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ContactContainer = styled.section`
   width: 60%;
@@ -14,7 +14,7 @@ export const ContactContainer = styled.section`
     flex-direction: column;
     height: auto;
   }
-`;
+`
 
 const inputSyles = `
   width: 100%;
@@ -32,7 +32,7 @@ const inputSyles = `
   @media (max-width: 768px) {
     margin-bottom: 1rem;
   }
-`;
+`
 
 export const AsideContact = styled.aside`
   width: 50%;
@@ -104,7 +104,7 @@ export const AsideContact = styled.aside`
       }
     }
   }
-`;
+`
 
 export const ContactInfo = styled.div`
   padding: 50px 30px;
@@ -141,4 +141,4 @@ export const ContactInfo = styled.div`
     padding: 1rem;
     text-align: center;
   }
-`;
+`

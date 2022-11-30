@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
-import { SideInAnimation } from '../../styles/Animations';
+import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
+import { SideInAnimation } from '../../styles/Animations'
 
 export const StyledHeader = styled.header`
   padding: 25px 140px 25px 125px;
@@ -28,7 +28,7 @@ export const StyledHeader = styled.header`
       display: block;
     }
   }
-`;
+`
 
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
@@ -44,7 +44,7 @@ export const StyledNavLink = styled(NavLink)`
     margin: 0;
     text-align: center;
   }
-`;
+`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
@@ -61,7 +61,7 @@ export const StyledLink = styled(Link)`
     margin: 0;
     text-align: center;
   }
-`;
+`
 
 export const NavigationDesktop = styled.nav`
   display: flex;
@@ -70,12 +70,12 @@ export const NavigationDesktop = styled.nav`
   @media (max-width: 768px) {
     display: none;
   }
-`;
+`
 
 export const Title = styled.h1`
   width: 35px;
   color: white;
-`;
+`
 
 export const NavigationMobile = styled.nav`
   display: none;
@@ -95,4 +95,4 @@ export const NavigationMobile = styled.nav`
     transition: all 0.3s;
     ${SideInAnimation()};
   }
-`;
+`

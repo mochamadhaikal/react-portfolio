@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const ProjectsContainer = styled.div`
   width: 100%;
@@ -60,8 +60,8 @@ export const ProjectsContainer = styled.div`
       justify-content: center;
     }
   }
-`;
+`
 
 export const Span = styled(Link)`
   text-decoration: none;
-`;
+`

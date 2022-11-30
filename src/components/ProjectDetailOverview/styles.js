@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ProjectDetailOverviewContainer = styled.div`
   width: 766px;
@@ -17,7 +17,7 @@ export const ProjectDetailOverviewContainer = styled.div`
     width: 95%;
     margin-bottom: 2rem;
   }
-`;
+`
 
 export const Img = styled.img`
   width: calc(100% - 2rem);
@@ -25,7 +25,7 @@ export const Img = styled.img`
   border-radius: 10px;
   height: 100%;
   margin: 1rem 1rem 0 1rem;
-`;
+`
 
 export const ProjectInfo = styled.div`
   width: 100%;
@@ -37,12 +37,13 @@ export const ProjectInfo = styled.div`
   &::-webkit-scrollbar {
     width: 0.3rem;
   }
-`;
+`
 
 export const Description = styled.div`
   width: 100%;
   height: 100%;
   padding: 0 1rem;
+  margin-bottom: 20px;
 
   p {
     color: #ccc;
@@ -50,7 +51,7 @@ export const Description = styled.div`
     word-spacing: 0.02rem;
     font-size: 17px;
   }
-`;
+`
 
 export const ProjectTitle = styled.div`
   padding: 2rem 1rem 1rem 1rem;
@@ -79,11 +80,11 @@ export const ProjectTitle = styled.div`
       font-size: 1.5rem;
     }
   }
-`;
+`
 
 export const ButtonContainer = styled.div`
   display: flex;
-`;
+`
 
 export const Button = styled.a`
   text-decoration: none;
@@ -129,4 +130,4 @@ export const Button = styled.a`
       margin: 0;
     }
   }
-`;
+`

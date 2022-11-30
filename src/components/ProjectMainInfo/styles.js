@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const MainInfoContainer = styled.div`
   background: ${(props) => props.colorToUse};
@@ -11,7 +11,7 @@ export const MainInfoContainer = styled.div`
   height: 100%;
   cursor: default;
   margin: 0 1rem 0 0.5rem;
-`;
+`
 
 export const InfoContainer = styled.div`
   padding: 1.5rem;
@@ -32,7 +32,7 @@ export const InfoContainer = styled.div`
     font-size: 18px;
     overflow: auto;
   }
-`;
+`
 
 export const Img = styled.img`
   width: 100%;
@@ -40,7 +40,7 @@ export const Img = styled.img`
   border-top-right-radius: 18px;
   min-height: 184px;
   object-fit: cover;
-`;
+`
 
 export const Button = styled.button`
   transition: 0.2s cubic-bezier(0, 0, 0.2, 1);
@@ -57,4 +57,4 @@ export const Button = styled.button`
   &:hover {
     background: ${({ details }) => (details ? 'rgba(255, 255, 255, 0.4);' : 'rgba(0, 0, 0, 0.4)')};
   }
-`;
+`

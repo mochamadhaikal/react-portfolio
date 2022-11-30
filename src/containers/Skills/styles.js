@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
   width: 100%;
@@ -21,7 +21,7 @@ export const SkillsContainer = styled.div`
       text-align: center;
     }
   }
-`;
+`
 
 export const SkillsItems = styled.div`
   display: flex;
@@ -74,4 +74,4 @@ export const SkillsItems = styled.div`
   @media (max-width: 768px) {
     width: 95%;
   }
-`;
+`

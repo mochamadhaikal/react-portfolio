@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const StyledSectionContainer = styled.section`
   width: 100%;
@@ -8,4 +8,4 @@ export const StyledSectionContainer = styled.section`
   align-items: center;
   justify-content: center;
   background-color: ${({ bgColor }) => bgColor};
-`;
+`

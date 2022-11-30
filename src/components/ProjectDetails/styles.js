@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const ProjectDetailsContainer = styled.div`
   width: 100%;
@@ -21,7 +21,7 @@ export const ProjectDetailsContainer = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     `}
-`;
+`
 
 export const Return = styled(Link)`
   display: flex;
@@ -60,4 +60,4 @@ export const Return = styled(Link)`
   @media (max-width: 768px) {
     padding-left: 1.5rem;
   }
-`;
+`

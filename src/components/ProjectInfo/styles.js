@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const StyledProjectInfo = styled.div`
   width: 584px;
@@ -14,7 +14,7 @@ export const StyledProjectInfo = styled.div`
     width: 95%;
     overflow: auto;
   }
-`;
+`
 export const Container = styled.div`
   width: 40rem;
   display: flex;
@@ -28,4 +28,4 @@ export const Container = styled.div`
       height: 0px;
     }
   }
-`;
+`

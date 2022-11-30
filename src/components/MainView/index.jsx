@@ -1,13 +1,4 @@
-import {
-  Me,
-  AsideLeft,
-  StyledMainView,
-  SeeProjects,
-  ButtonIcons,
-  ButtonsContainer,
-  Span,
-  BoxSocial,
-} from './styles'
+import { Me, AsideLeft, StyledMainView, SeeProjects, ButtonIcons, ButtonsContainer, Span, BoxSocial } from './styles'
 import { MdArrowRightAlt } from 'react-icons/md'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import MyImage from '../../utils/me.png'

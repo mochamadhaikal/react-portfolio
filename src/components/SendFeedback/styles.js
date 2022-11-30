@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const BoxFeedback = styled.a`
   background-color: #f03e3e;
@@ -33,4 +33,4 @@ export const BoxFeedback = styled.a`
   @media (max-width: 768px) {
     display: none;
   }
-`;
+`

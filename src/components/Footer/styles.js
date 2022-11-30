@@ -30,7 +30,8 @@ export const FooterButtonsContainer = styled.div`
 
   span {
     margin-left: 20px;
-    color: #cccc;
+    color: white;
+    text-shadow: 0 0 10px #0acf97;
   }
 
   @media (max-width: 768px) {

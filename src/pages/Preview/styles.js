@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { PingAnimation } from '../../styles/Animations';
+import styled from 'styled-components'
+import { PingAnimation } from '../../styles/Animations'
 
 export const Container = styled.div`
   width: 100%;
@@ -63,7 +63,7 @@ export const Container = styled.div`
       text-align: center;
     }
   }
-`;
+`
 
 export const Link = styled.a`
   text-decoration: none;
@@ -73,4 +73,4 @@ export const Link = styled.a`
   &:hover {
     text-decoration: underline;
   }
-`;
+`

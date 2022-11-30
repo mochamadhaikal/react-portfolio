@@ -7,10 +7,12 @@ import {
   SiHtml5,
   SiSass,
   SiReact,
-  SiCss3
-} from 'react-icons/si';
+  SiCss3,
+  SiNextdotjs,
+} from 'react-icons/si'
+import { RxStitchesLogo } from 'react-icons/rx'
 
-const SIZE = 50;
+const SIZE = 50
 
 export const TechsInfo = {
   Laravel: {
@@ -25,6 +27,12 @@ export const TechsInfo = {
     link: 'https://es.reactjs.org/',
     description: 'A JavaScript library for building user interfaces',
   },
+  Nextjs: {
+    name: 'Nextjs',
+    Icon: <SiNextdotjs size={SIZE} />,
+    link: 'https://nextjs.org/',
+    description: 'Next.js is a React framework that gives you building blocks to create web applications',
+  },
   Vuejs: {
     name: 'Vuejs',
     Icon: <SiVuedotjs size={SIZE} />,
@@ -34,6 +42,13 @@ export const TechsInfo = {
   TailwindCSS: {
     name: 'Tailwind CSS',
     Icon: <SiTailwindcss size={SIZE} />,
+    link: 'https://tailwindcss.com/',
+    description:
+      'A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.',
+  },
+  Sticthes: {
+    name: 'Stitches',
+    Icon: <RxStitchesLogo size={SIZE} />,
     link: 'https://tailwindcss.com/',
     description:
       'A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.',
@@ -49,8 +64,7 @@ export const TechsInfo = {
     name: 'Jquery',
     Icon: <SiJquery size={SIZE} />,
     link: 'https://jquery.com/',
-    description:
-      'jQuery is a lightweight, "write less, do more", JavaScript library.',
+    description: 'jQuery is a lightweight, "write less, do more", JavaScript library.',
   },
   Sass: {
     name: 'Sass',
@@ -73,4 +87,4 @@ export const TechsInfo = {
     description:
       'CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.',
   },
-};
+}

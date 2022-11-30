@@ -10,11 +10,11 @@ export const Footer = () => {
 
       <FooterButtonsContainer>
         <div className="buttons">
-            <a href="https://www.linkedin.com/in/mochamadhaikal/" target="_blank" rel="noreferrer">
-              <ButtonIcons>
-                <AiFillLinkedin />
-              </ButtonIcons>
-            </a>
+          <a href="https://www.linkedin.com/in/mochamadhaikal/" target="_blank" rel="noreferrer">
+            <ButtonIcons>
+              <AiFillLinkedin />
+            </ButtonIcons>
+          </a>
 
           <a href="https://github.com/mochamadhaikal" target="_blank" rel="noreferrer">
             <ButtonIcons>
@@ -23,7 +23,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <span>@2022 All rights reserved to KaLe.</span>
+        <span>Built with ❤️ by KaLe &#169; 2022</span>
       </FooterButtonsContainer>
     </FooterContainer>
   )

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
+import styled from 'styled-components'
+import { Link } from 'react-scroll'
 
 export const StyledMainView = styled.section`
   width: 100%;
@@ -11,7 +11,7 @@ export const StyledMainView = styled.section`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
+`
 
 export const Me = styled.img`
   width: 100%;
@@ -22,9 +22,8 @@ export const Me = styled.img`
 
   @media (max-width: 768px) {
     display: none;
-
   }
-`;
+`
 
 export const AsideLeft = styled.div`
   width: 100%;
@@ -63,7 +62,7 @@ export const AsideLeft = styled.div`
       font-size: 3.5rem;
     }
   }
-`;
+`
 
 export const Span = styled.span`
   color: #08a185;
@@ -79,7 +78,7 @@ export const Span = styled.span`
     transform: rotate(25deg);
     width: 50%;
   }
-`;
+`
 
 export const ButtonsContainer = styled.div`
   display: flex;
@@ -96,7 +95,7 @@ export const ButtonsContainer = styled.div`
   @media (max-width: 400px) {
     flex-direction: column;
   }
-`;
+`
 
 export const SeeProjects = styled(Link)`
   background: none;
@@ -136,11 +135,11 @@ export const SeeProjects = styled(Link)`
   @media (max-width: 400px) {
     margin: 20px 0;
   }
-`;
+`
 
 export const BoxSocial = styled.div`
   display: flex;
-`;
+`
 
 export const ButtonLinkedIn = styled.button`
   background: none;
@@ -151,7 +150,7 @@ export const ButtonLinkedIn = styled.button`
   border-radius: 30px;
   color: #08a185;
   font-weight: bold;
-`;
+`
 
 export const ButtonIcons = styled.button`
   background: none;
@@ -168,4 +167,4 @@ export const ButtonIcons = styled.button`
   font-weight: 900;
   margin-right: 10px;
   cursor: pointer;
-`;
+`

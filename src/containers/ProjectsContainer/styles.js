@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const StyledProjectsContainer = styled.div`
   width: 100%;
@@ -7,7 +7,7 @@ export const StyledProjectsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
-`;
+`
 
 export const ProjectsCounterContainer = styled.div`
   width: 100%;
@@ -16,7 +16,7 @@ export const ProjectsCounterContainer = styled.div`
   align-items: center;
   color: #ccc;
   margin: 2rem 0;
-`;
+`
 
 export const ProjectCounter = styled.div`
   width: 50px;
@@ -31,7 +31,7 @@ export const ProjectCounter = styled.div`
   margin: 0 15px;
   color: #03bd9a;
   filter: drop-shadow(0px 0px 5px #03bd9a);
-`;
+`
 
 export const Title = styled.h2`
   margin-top: -90px;
@@ -50,7 +50,7 @@ export const Title = styled.h2`
   @media (max-width: 400px) {
     font-size: 1.8rem;
   }
-`;
+`
 
 export const Container = styled.div`
   display: grid;
@@ -62,7 +62,7 @@ export const Container = styled.div`
     /* centrar */
     justify-items: center;
   }
-`;
+`
 
 // export const Description = styled.p`
 //   font-size: 1.2rem;
@@ -96,4 +96,4 @@ export const ShowAllButton = styled(Link)`
     color: #03bd9a;
     box-shadow: 0px 0px 10px #03bd9a;
   }
-`;
+`

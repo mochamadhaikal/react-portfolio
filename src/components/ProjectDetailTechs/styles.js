@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ProjectDetailTechsContainer = styled.div`
   width: 384px;
@@ -17,7 +17,7 @@ export const ProjectDetailTechsContainer = styled.div`
     width: 95%;
     margin-bottom: 3rem;
   }
-`;
+`
 
 export const TechItem = styled.div`
   display: flex;
@@ -54,4 +54,4 @@ export const TechItem = styled.div`
       word-spacing: 0.02rem;
     }
   }
-`;
+`

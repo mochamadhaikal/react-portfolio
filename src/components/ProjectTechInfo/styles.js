@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const TechInfoContainer = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const TechInfoContainer = styled.div`
   @media (max-width: 768px) {
     min-width: 50%;
   }
-`;
+`
 
 export const Description = styled.div`
   overflow-y: auto;
@@ -30,7 +30,7 @@ export const Description = styled.div`
   &::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
-`;
+`
 
 export const TechItem = styled.div`
   display: flex;
@@ -64,10 +64,10 @@ export const TechItem = styled.div`
       word-spacing: 0.02rem;
     }
   }
-`;
+`
 
 export const Title = styled.h2`
   font-size: 16px;
   margin-bottom: 20px;
   filter: drop-shadow(0 0 0.2rem #03bd9a);
-`;
+`
