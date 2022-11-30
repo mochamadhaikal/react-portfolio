@@ -1,5 +1,5 @@
 import { SkillsContainer, SkillsItems } from './styles'
-import { DiJavascript1, DiReact, DiSass } from 'react-icons/di'
+import { DiCodeigniter, DiJavascript1, DiReact, DiSass } from 'react-icons/di'
 import { SiLaravel, SiTailwindcss, SiJquery, SiBootstrap } from 'react-icons/si'
 
 export const Skills = () => {
@@ -26,6 +26,11 @@ export const Skills = () => {
         <div>
           <SiLaravel size={SIZE} color={COLOR} />
           <span>Laravel</span>
+        </div>
+
+        <div>
+          <DiCodeigniter size={SIZE} color={COLOR} />
+          <span>CodeIgniter</span>
         </div>
 
         <div>
