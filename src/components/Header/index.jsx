@@ -48,7 +48,7 @@ export const Header = () => {
           HOME
         </StyledNavLink>
         {navItems.map(({ name, link }, index) => (
-          <StyledLink to={link} spy="true" smooth="true" offset={-70} duration={500} key={index}>
+          <StyledLink to={link} spy={true} smooth={true} offset={-70} duration={500} key={index}>
             {name.toUpperCase()}
           </StyledLink>
         ))}
@@ -59,7 +59,7 @@ export const Header = () => {
           HOME
         </StyledNavLink>
         {navItems.map(({ name, link }, index) => (
-          <StyledLink to={link} spy="true" smooth="true" offset={-70} duration={500} onClick={handleClick} key={index}>
+          <StyledLink to={link} spy={true} smooth={true} offset={-70} duration={500} onClick={handleClick} key={index}>
             {name.toUpperCase()}
           </StyledLink>
         ))}

@@ -44,7 +44,7 @@ export const MainView = () => {
         </motion.h4>
 
         <ButtonsContainer>
-          <SeeProjects to="projects" spy="true" smooth="true" offset={-70} duration={500}>
+          <SeeProjects to="projects" spy={true} smooth={true} offset={-70} duration={500}>
             <span>
               See Projects <MdArrowRightAlt size="32" />
             </span>
