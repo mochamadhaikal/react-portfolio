@@ -24,7 +24,14 @@ export const ContactForm = () => {
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
       </div>
-      <input type="number" name="phone" maxLength="13" placeholder="Phone (without parentheses and spaces)" required />
+      <input
+        type="number"
+        id="phone"
+        name="phone"
+        maxLength="13"
+        placeholder="Phone (without parentheses and spaces)"
+        required
+      />
       <textarea name="message" placeholder="Message" required />
       <button type="submit" className="submit">
         Submit
