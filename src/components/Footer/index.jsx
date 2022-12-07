@@ -23,7 +23,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <span>Built with ❤️ by KaLe &#169; 2022</span>
+        <span>Made with ❤️ by KaLe &#169; 2022</span>
       </FooterButtonsContainer>
     </FooterContainer>
   )
