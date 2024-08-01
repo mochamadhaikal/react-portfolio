@@ -12,6 +12,7 @@ export const ContactForm = () => {
         alert('Success')
       },
       (error) => {
+        console.log('error', error);
         alert('Failed', error)
       }
     )
